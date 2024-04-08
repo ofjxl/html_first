@@ -88,9 +88,15 @@
  * android favicon size : 192*192
  * 1. 파비콘 크기로 이미지 다운받거나 편집하기 
  * 2. html에서 head 안에 link 태그로 `favicon` href주소 연결하기
- ## 이미지 태그 `img`
+ ## 이미지 태그 `img`(inline)
  * `<img> 태그` : src 이미지 경로 속성의 값으로는 상대경로 방식으로 작성하는 것을 권장합니다. 
  * 대체텍스트 alt 속성을 필수로 작성해야 합니다. 
  * 이미지 사용 시 의미전달이 필요한 이미지와 아닌 이미지를 구분해서 사용해야합니다.
  * `<img src=”url” alt=””>`필수
  * img 태그는 인라인태그이고 a 밖으로 나갈수 없음
+ ## figure, figcaption 태그
+ * 문서 안 사진을 감싸는 틀로서 활용하고 사진의 캡션을 정의할 수 있습니다. 
+ ## video 태그
+ * autoplay muted loop controls -> `autoplay`:자동재생 | `muted`:음소거 | `loop`:반복 | `controls`:통제 수단
+ * 유튜브 영상의 소스를 복사 할 때 
+ * 유튜브 제목`?autoplay=1&mute=1&loop=1` title=~~ 
