@@ -100,3 +100,18 @@
  * autoplay muted loop controls -> `autoplay`:자동재생 | `muted`:음소거 | `loop`:반복 | `controls`:통제 수단
  * 유튜브 영상의 소스를 복사 할 때 
  * 유튜브 제목`?autoplay=1&mute=1&loop=1` title=~~ 
+ ## Class, id 많이 사용하는 키워드 
+ * wrapper, wrap, area 전체 묶는 영역
+ * contents, container 중~소 묶는 영역 
+ * group, g 간단한 소그룹 영역 
+ * top, btm, left, right 레이아웃 방향을 의미하는 키워드 
+ * ex) 의미있는 단어_영역명 
+ * 예시 : product_wrap, item_area, price_g, main_contents, top_btn
+ ## div, span 그룹태그
+ ### div 
+ * 인라인과 블록이 2개 이상 형제일 경우 묶어주는 그룹태그
+ * 레이아웃 기준 1행에 2열 이상 배치일 경우
+ * 특정 의미를 가진 행에 같은 디자인 요소
+ ### span
+ * 인라인이 2개 이상 형제일 경우 묶는 그룹태그
+ * 의미없는 디자인 요소 인라인 처리 필요 시 사용 
